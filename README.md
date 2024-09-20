@@ -12,4 +12,8 @@ O win32com.client é um módulo do pacote pywin32 que permite a automação de a
 Instalação do pywin32: Primeiro, você precisa instalar o pacote pywin32. Você pode fazer isso usando o pip:
 
 programa: 
-fazer um import do client, 
+fazer um import do client.
+
+Criar uma instância do Word:
+word = win32com.client.Dispatch("Word.Application")
+word.Visible = True  # Para mostrar o Word
