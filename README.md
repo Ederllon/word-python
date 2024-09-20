@@ -10,3 +10,6 @@ win32com.client: Se você estiver usando o Windows e tiver o Microsoft Word inst
 O win32com.client é um módulo do pacote pywin32 que permite a automação de aplicativos do Windows via COM (Component Object Model). Aqui estão os passos básicos para usá-lo:
 
 Instalação do pywin32: Primeiro, você precisa instalar o pacote pywin32. Você pode fazer isso usando o pip:
+
+programa: 
+fazer um import do client, 
