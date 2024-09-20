@@ -17,3 +17,8 @@ fazer um import do client.
 Criar uma instância do Word:
 word = win32com.client.Dispatch("Word.Application")
 word.Visible = True  # Para mostrar o Word
+
+Adicionar um novo documento:
+documento = word.Documents.Add()
+
+
