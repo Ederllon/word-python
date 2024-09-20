@@ -21,4 +21,12 @@ word.Visible = True  # Para mostrar o Word
 Adicionar um novo documento:
 documento = word.Documents.Add()
 
+Você pode adicionar texto ao documento da seguinte forma:
+parágrafo = documento.Content
+parágrafo.Text = "Olá, Word!"
+
+Para salvar e fechar o Word, use:
+documento.SaveAs("C:\\caminho\\para\\seu\\arquivo.docx")
+word.Quit()
+
 
